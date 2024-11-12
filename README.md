@@ -66,7 +66,7 @@
 Линейная интерполяция + Лагранж (по 4 известным точкам):
 
 ```
--> ...\functional_programming_lab_3> elixir lib/start.exs method1=linear method2=lagrange4 step=1
+-> ...\functional_programming_lab_3> elixir lib/main.exs method1=linear method2=lagrange4 step=1
 0 0
 1.571 1
 
@@ -112,7 +112,7 @@ exit
 Линейная интерполяция + Лагранж (по 3 известным точкам):
 
 ```
--> ...\functional_programming_lab_3> elixir lib/start.exs method1=linear method2=lagrange3 step=0.5
+-> ...\functional_programming_lab_3> elixir lib/main.exs method1=linear method2=lagrange3 step=0.5
 0 0
 1.571 1
 
@@ -167,7 +167,7 @@ exit
 Лагранж (по 4 известным точкам) + Ньютон (по 4 известным точкам):
 
 ```
--> ...\functional_programming_lab_3> elixir lib/start.exs method1=lagrange4 method2=newton step=0.75
+-> ...\functional_programming_lab_3> elixir lib/main.exs method1=lagrange4 method2=newton step=0.75
 0 0
 1.571 1
 3.142 0
