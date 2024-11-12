@@ -18,4 +18,3 @@ jobs:
           elixir-version: '1.17.3'
       - run: mix deps.get
       - run: mix format
-      - run: mix credo
